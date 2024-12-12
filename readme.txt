@@ -1,0 +1,1 @@
+Para la ejecucion del proyecto se debe ingresar el comando -mvn clean verify lo cual ejecutara el proyecto en modo grafico
