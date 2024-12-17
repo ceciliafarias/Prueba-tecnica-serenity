@@ -1,4 +1,4 @@
-package com.prueba.tecnica.userInterfaces;
+package starter.helper.userInterfaces;
 
 import org.openqa.selenium.By;
 

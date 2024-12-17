@@ -1,4 +1,4 @@
-package com.prueba.tecnica.userInterfaces;
+package starter.helper.userInterfaces;
 
 
 import net.serenitybdd.screenplay.targets.Target;

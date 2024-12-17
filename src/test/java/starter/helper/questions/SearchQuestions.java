@@ -1,6 +1,6 @@
-package com.prueba.tecnica.questions;
+package starter.helper.questions;
 
-import com.prueba.tecnica.userInterfaces.SearchPage;
+import starter.helper.userInterfaces.SearchPage;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.questions.TextContent;

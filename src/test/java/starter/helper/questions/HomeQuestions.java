@@ -1,7 +1,6 @@
-package com.prueba.tecnica.questions;
+package starter.helper.questions;
 
-import com.prueba.tecnica.userInterfaces.HomePage;
-
+import starter.helper.userInterfaces.HomePage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;

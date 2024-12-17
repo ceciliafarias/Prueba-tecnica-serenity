@@ -1,6 +1,6 @@
-package com.prueba.tecnica.questions;
+package starter.helper.questions;
 
-import com.prueba.tecnica.userInterfaces.CheckoutPage;
+import starter.helper.userInterfaces.CheckoutPage;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.questions.TextContent;
@@ -16,6 +16,6 @@ public class CheckoutQuestions {
     public static Question<String> checkTotalAmount(){
         WaitUntil.the(CheckoutPage.TOTAL_AMOUNT, WebElementStateMatchers.isPresent())
                 .forNoMoreThan(10).seconds();
-        return actor -> TextContent.of(CheckoutPage.TOTAL_AMOUNT).answeredBy(actor);
+        return actor -> TextContent.of(CheckoutPage.TOTAL_AMOUNT).answeredBy(actor).replaceAll("\\$", "");
     }
 }
