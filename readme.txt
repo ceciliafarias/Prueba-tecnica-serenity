@@ -77,6 +77,19 @@ Escenarios de prueba
     + Alan confirm the order
     + Alan see the message "Your order has been placed!" must be visible
 
+Revisar el reporte de pruebas
+------------------------------
+
+Para revisar el reporte de pruebas, sigue los siguientes pasos:
+
+1. Ejecuta las pruebas utilizando el comando `mvn clean verify` en la terminal.
+2. Una vez que las pruebas se hayan completado, se generará un reporte en formato HTML en la carpeta `target/site/serenity`.
+3. Abre el archivo `index.html` en la carpeta `target/site/serenity` en tu navegador web.
+4. En el menú de navegación, selecciona la opción "Test Runs" para ver una lista de las ejecuciones de pruebas.
+5. Haz clic en el nombre de la ejecución de pruebas que deseas revisar para ver los detalles de la ejecución.
+6. En la página de detalles de la ejecución, se mostrarán los resultados de las pruebas, incluyendo las pruebas que fallaron y las que se completaron con éxito.
+7. Haz clic en los enlaces de las pruebas fallidas para ver los detalles de los errores y hallazgos.
+8. Para obtener más información sobre cómo interpretar los resultados de las pruebas, consulta la documentación oficial de Serenity BDD.
 
 Contribuciones
 -----------------
