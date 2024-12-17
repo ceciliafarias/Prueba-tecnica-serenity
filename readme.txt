@@ -56,7 +56,8 @@ Comandos disponibles
 ---------------------------
 
 * `mvn clean verify`: Ejecuta todas las pruebas.
-* `mvn clean verify -Dheadless.mode=false`: Ejecuta todas las pruebas en modo headless.
+* `mvn clean verify -Dheadless.mode=false`: Por defecto el proyecto ejecuta las pruebas en modo headless,
+                                            para ejecutar el proyecto en modo gráfico se envía la bandera false.
 
 Escenarios de prueba
 ---------------------
