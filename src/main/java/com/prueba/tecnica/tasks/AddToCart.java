@@ -1,7 +1,6 @@
 package com.prueba.tecnica.tasks;
 
 import com.prueba.tecnica.userInterfaces.SearchPage;
-import net.serenitybdd.core.pages.WebElementState;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
