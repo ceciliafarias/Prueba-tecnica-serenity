@@ -1,6 +1,6 @@
-package com.prueba.tecnica.tasks;
+package starter.helper.tasks;
 
-import com.prueba.tecnica.userInterfaces.CheckoutPage;
+import starter.helper.userInterfaces.CheckoutPage;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;

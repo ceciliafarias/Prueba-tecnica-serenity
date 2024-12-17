@@ -1,6 +1,6 @@
-package com.prueba.tecnica.tasks;
+package starter.helper.tasks;
 
-import com.prueba.tecnica.userInterfaces.SearchPage;
+import starter.helper.userInterfaces.SearchPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;

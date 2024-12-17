@@ -1,20 +1,19 @@
 Feature: Purchase
 
     Background:
-        Given Alan wants purchase
-        And the browser must be open
+        Given Alan open the the browser in the shopping page
 
     Scenario: Purchase product
-        Given the user is in home page
-         When the user search a iPhone item
-         And add to cart the product
-         And the user search a iMac item
-         And add to cart the product
-         And view the shopping cart
-         And click in the checkout button
-         And select the guest option
-         And fill billing detail form
-         And select delivery method
-         And select the payment method
-         And confirm the order
-         Then the message Your order has been placed! must be visible
+        Given Alan is in home page
+        When Alan search a "iPhone" item
+        And Alan add to cart the product
+        And Alan search a "iMac" item
+        And Alan add to cart the product
+        And Alan view the shopping cart
+        And Alan click in the checkout button
+        And Alan choose the guest option
+        And Alan fill billing detail form
+        And Alan choose delivery method
+        And Alan choose the payment method
+        And Alan confirm the order
+        Then Alan see the message "Your order has been placed!" must be visible

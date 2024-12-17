@@ -1,7 +1,7 @@
-package com.prueba.tecnica.tasks;
+package starter.helper.tasks;
 
-import com.prueba.tecnica.userInterfaces.CartPage;
-import com.prueba.tecnica.userInterfaces.HeaderPage;
+import starter.helper.userInterfaces.CartPage;
+import starter.helper.userInterfaces.HeaderPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;

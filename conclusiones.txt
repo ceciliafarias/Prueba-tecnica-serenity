@@ -1,0 +1,20 @@
+CONCLUSIONES DEL EJERCICIO
+==========================
+
+INTRODUCCIÓN
+------------
+
+En este ejercicio, se realizó un análisis exhaustivo de la automatización de pruebas para el E2E de agregar productos al carrito y terminar la compra en un sitio web de comercio electrónico. Se utilizaron herramientas como Serenity BDD y Screenplay para desarrollar la suite de pruebas.
+
+HALLAZGOS
+------------
+
+* Se logró automatizar con éxito el flujo E2E de agregar productos al carrito y terminar la compra en el sitio web de comercio electrónico.
+* Se mejoró la eficiencia y la efectividad de las pruebas al utilizar Serenity BDD y Screenplay.
+
+CONCLUSIONES
+-------------
+
+* La automatización de pruebas es una herramienta fundamental para garantizar la calidad y la confiabilidad de los sistemas de software.
+* Serenity BDD y Screenplay son herramientas potentes para desarrollar suites de pruebas automatizadas de alta calidad.
+* La implementación de pruebas automatizadas puede ayudar a identificar y solucionar errores en la funcionalidad del sistema, lo que a su vez puede mejorar la experiencia del usuario.
