@@ -1,6 +1,5 @@
 package com.prueba.tecnica.userInterfaces;
 
-import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class SearchPage {

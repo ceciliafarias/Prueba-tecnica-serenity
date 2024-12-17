@@ -5,7 +5,6 @@ import com.prueba.tecnica.userInterfaces.HomePage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
-import net.serenitybdd.screenplay.questions.WebElementQuestion;
 
 public class HomeQuestions implements Question<Boolean> {
     
